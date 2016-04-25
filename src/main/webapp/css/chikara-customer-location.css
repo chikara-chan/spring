@@ -1,0 +1,118 @@
+a,button,[type="submit"],[type="button"]{
+	outline: none !important;
+}
+nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav .btn {
+	width: 80px;
+}
+
+nav img {
+	width: 70%;
+	height: 70%;
+}
+
+nav .user-zone {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 16px;
+}
+
+nav .user-zone span {
+	color: #55f;
+}
+nav ul {
+	position:relative;
+	top:3px;
+}
+
+
+.content {
+	margin: 30px auto;
+	width: 1000px;
+	height: 520px;
+	border: 1px solid #999;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: 6px;
+	outline: 0;
+	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+	box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+.content_title {
+	padding-left: 15px;
+	padding-top: 20px;
+	height: 80px;
+	font-size: 28px;
+	color: #746d68;
+	text-align: center;
+	border-bottom: 1px solid #E5E1D6;
+}
+
+.choose {
+	background-color: #fff;
+	width: 998px;
+}
+
+.choice {
+	width: 800px;
+	margin: auto;
+	border-bottom: 1px solid #E5E1D6;
+	color: #746D7F;
+	font-family: '微软雅黑', Arial, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.content ul.province {
+	list-style: none;
+	margin-left: 100px;
+	min-height: 30px;
+}
+
+.content ul>li {
+	display: inline-block;
+	margin-left: 20px;
+	line-height: 40px;
+}
+.content ul>li>a {
+	text-decoration: none !important;
+	padding:0 4px 1px 4px;
+	border:rgba(0,0,0,0) solid 1px;
+	border-radius:3px;
+}
+.content ul>li>a:hover {
+	border:#55f solid 1px;
+}
+.content .link-active {
+	border:#55f solid 1px;
+}
+span.pro {
+	float: left;
+	margin-top: 10px;
+}
+.modal-dialog {
+	margin:auto;
+	margin-top:120px;
+	width:360px;
+}
+.modal-dialog .modal-title{
+	font-size:18px;
+	margin-left:20px;
+	margin-bottom: 30px;
+}
+.modal-dialog button[type="submit"]{
+	width:210px;
+	margin-top:8px;
+	margin-bottom:40px;
+	position: relative;
+	left:4px;
+}
+
+footer {
+	background-color: #eee;
+	padding: 15px 0;
+}

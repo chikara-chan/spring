@@ -1,0 +1,19 @@
+.order_products{
+	width:1000px;
+	min-height:530px;
+	margin:0 auto;
+	 -webkit-box-shadow: 0 0px 9px rgba(0,0,0,.5);
+    box-shadow: 0 0px 9px rgba(0,0,0,.5);
+	margin-bottom:20px;
+	font-family: '微软雅黑',Arial,sans-serif;
+
+}
+a{padding-top:20px;}
+input.active{
+width:100px;
+height:40px;
+margin-left:20px;
+border:none!important;
+/* background-color:#FD4B64 !important; */
+padding-top:5px !important;
+}

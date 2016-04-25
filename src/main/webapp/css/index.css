@@ -1,0 +1,39 @@
+body{	background-color:#F4F3F2;}
+.address{
+	margin-left:200px;
+	margin-top:30px;
+}
+.address>img{
+	margin-top:-10px;
+	width:50px;
+}
+.address>a{
+	
+	color:#969696;
+	font-size:18px;
+	text-decoration:none;
+	-webkit-font-smoothing: antialiased;
+ font-family:'Microsoft YaHei','微软雅黑',MicrosoftJhengHei,'华文细黑','宋体'; 
+}
+.product-list{
+	width:1000px;
+	margin:auto;
+}
+.item {
+width: 20%;
+height: 298px;
+margin: 10px 5px 4px 0;
+border: 1px solid #f4f3f2;
+background: #fff;
+border-radius: 2px;
+padding: 16px 0 7px;
+transition-duration: .3s;
+position: relative;
+float:left;
+}
+p.proname{
+	
+}
+p.proprice{
+	color:#FF6F6F;
+}

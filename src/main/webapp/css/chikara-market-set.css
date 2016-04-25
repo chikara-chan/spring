@@ -1,0 +1,148 @@
+a,button,[type="submit"],[type="button"]{
+	outline: none !important;
+}
+nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav img {
+	width: 70%;
+	height: 70%;
+}
+
+nav .user-zone {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 16px;
+	position:relative;
+	top:7px;
+}
+
+nav .user-zone span {
+	color: #55f;
+}
+nav h3 span {
+	position:relative;
+	right:130px;
+	bottom:0px;
+}
+
+.content{
+	width:950px;
+	height:480px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    margin-top:50px;
+	margin-bottom:50px;
+}
+.content .left-part{
+	padding:0;
+	height:478px;
+	overflow: hidden;
+}
+.content .left-part a{
+	color:#333;	
+	padding-top:25px;
+	padding-bottom:25px;
+	border-bottom:1px solid #ddd;
+	border-right:1px solid #ddd;
+	background-color: rgb(245,245,245);
+}
+.content .left-part a.active{
+	background-color: #fff;
+	border-right:1px solid rgba(0,0,0,0);
+	color: #337ab7;
+}
+.content .left-part li{
+	font-size:16px;
+	text-align: center;
+}
+.content .left-part .blank{
+	height:100%;
+	border-right:1px solid #ddd;
+	background-color: rgb(245,245,245);
+}
+.content .right-part.set{
+	padding-left:45px;
+	padding-top:35px;
+	line-height:22px;
+}
+.content .right-part.setEmail{
+	padding-left:0;
+	padding-top:40px;
+}
+.content .right-part.setEmail img{
+	width:70%;
+	height:70%;
+	margin-left:-15px;
+}
+.content .right-part.setEmail button{
+	width:275px;
+}
+.content .right-part.setAddress{
+	padding-left:45px;
+	padding-top:35px;
+}
+.content .right-part.setAddress .card{
+	border:1px solid #ddd;
+	width:250px;
+	height:110px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:40px;
+	margin-right:45px;
+}
+.content .right-part.setAddress .card:hover{
+	border:1px solid rgba(109, 170, 213, 1);
+	box-shadow:0 0 5px rgba(109, 170, 213, 1);
+}
+.content .right-part.setAddress .card .card-section.first a{
+	visibility: hidden;
+}
+.content .right-part.setAddress .card:hover .card-section.first a{
+	visibility: visible;
+}
+.content .right-part.setAddress .card .card-section{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.content .right-part.setAddress .card .card-section.first{
+	border-bottom:1px solid #ddd;
+}
+.content .right-part.setAddress .card.add{
+	padding-top:25px;
+	text-align: center;
+}
+.content .right-part.setAddress .card.add .icon{
+	font-size:24px;
+}
+.content .right-part.setAddress .card.add:hover {
+	color:rgba(109, 170, 213, 1);
+	cursor: pointer;
+}
+.modal-dialog {
+	margin:auto;
+	margin-top:120px;
+	width:360px;
+}
+.modal-dialog .modal-title{
+	font-size:18px;
+	margin-left:20px;
+	margin-bottom: 30px;
+}
+.modal-dialog button[type="submit"]{
+	width:250px;
+	margin-top:8px;
+	margin-bottom:40px;
+}
+
+
+
+
+footer{
+	background-color:#eee;
+	padding:15px 0;
+}
